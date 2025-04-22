@@ -34,3 +34,12 @@ print(f""" Su nombre es {name.capitalize()} y tiene {edad} años.
       \n \t Su nombre contiene {len(name)} carácteres.
       \nEsto es mayuscula total: {name.upper()}
       \ny esto es mayuscula solo primera letra: {name.capitalize()} """)
+#______________prueba de metodos
+print(name.title()) # Pone mayusculas todas las primeras letras
+print(name.swapcase()) # pone en mayuscula toda la frase
+print(name.replace("raul","Raúl")) # Reemplaza un texto por otro, no modifica el original
+print(name_1.split()) #separa o divide cadenas de texto
+print(name_1.strip()) # Elimina espacios al principio y final de un texto
+print(name_1.lstrip()) 
+print(name_1.find("l")) # Busca y devuelve el indice de la letra o palabra, si hay lanza "-1"
+print(name_1.index("a")) # Busca y devuelve el indice de la letra o palabra, si no hay lanza Error. (try/except)
